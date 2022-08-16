@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+[class="navbar-container"]
+{
+    width: 100vmax;
+    font-family: Orbitron;
+    display: flex;
+    padding: 1% 2% 1% 2%;
+}
+[class="navbar-container-logo"]
+{
+    width: 25vmax;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+[class="navbar-container-brand-logo"]
+{
+    width: 8vmax;
+}
+[class="nav-list"]
+{
+    width: 50vmax;
+    list-style-type: none;
+    display: flex;
+    padding: 1.5vmax;
+    justify-content: space-around;
+    font-size: 1.25rem;
+}
+li:nth-child(1)
+{
+    font-weight: bolder; 
+}
+li:nth-child(1)::after
+{
+    height: 2px;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    background: black;
+    /* border-bottom: 1px black; */
+    content: '';
+}
+[class="button-group"]
+{
+    width: 25vmax;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+[class="search-icon"] > svg
+{
+    /* border: 1px solid; */
+    width: 100%;
+    padding-top: .1rem;
+}
+[class="nav-button"]
+{
+   border-radius:.8rem;
+   height: auto;
+   width: 12vmax;
+   padding: .5rem;
+   font-size: large;
+   font-weight: bold;
+}
+
+/* hero section */
+[class="hero-container"]
+{
+    display: flex;
+    padding: 1% 5% 1% 5%;
+    margin: 2rem;
+}
+img[alt="star-pattern-2"]
+{
+    width: 3vmax;
+    position: absolute;
+    top: 45vmax;
+    left: 45vmax;
+}
+img[alt="person-hero-image"]
+{
+    width: 28vmax;
+    position: relative;
+    right: 35vmax;
+}
+img[alt="square-pattern"]
+{
+    width: 28vmax;
+    position: relative;
+    left: 5vmax;
+    top: 12vmax;
+}
+img[alt="star-pattern"]
+{
+    position: relative;
+    left: 60vmax;
+    top: 2vmax;
+    width: 3vmax;
+}
+img[alt="globe-pattern"] 
+{
+    position: relative;
+    left: 22vmax;
+    width: 4vmax;
+}
+[class="hero-container-right"]
+{
+    position: absolute;
+    top: 15vmax;
+    left: 38vw;
+    padding: 2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    height: auto;
+    
+    
+}
+[class="hero-heading"]
+{
+    font-family: Orbitron;
+    font-size: 4vmax;
+}
+[class="hero-description"]
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-family: poppins;
+    color: grey;
+}
+[class="button-email"],[class="button-join"]
+{
+    font-family: Orbitron;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: large;
+    font-weight: 500;
+}
+[class="button-join"]
+{
+    background-color: black;
+    color: white;
+    margin-left: 1rem;
+}
+/* social icons */
+[class="contact-section"]
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    gap: .5rem;
+    padding: 1rem;
+}
+[class="contact-heading"]
+{
+    font-size: large;
+    color:  grey;
+    font-weight: 500;
+}
+[class="icons"]
+{
+    display: flex;
+    gap: 1rem;
+}
