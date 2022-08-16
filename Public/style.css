@@ -77,28 +77,29 @@ li:nth-child(1)::after
 [class="hero-container"]
 {
     display: flex;
-    padding: 1% 5% 1% 5%;
-    margin: 2rem;
+    padding: 1% 5% 1% 5%; 
+    height: 80vh;
 }
 img[alt="star-pattern-2"]
 {
     width: 3vmax;
     position: absolute;
-    top: 45vmax;
+    top: 40vmax;
     left: 45vmax;
 }
 img[alt="person-hero-image"]
 {
     width: 28vmax;
     position: relative;
-    right: 35vmax;
+    right: 34vmax;
+    padding-left: 2rem;
 }
 img[alt="square-pattern"]
 {
-    width: 28vmax;
+    width: 26vmax;
     position: relative;
-    left: 5vmax;
-    top: 12vmax;
+    left: 6vmax;
+    top: 10vmax;
 }
 img[alt="star-pattern"]
 {
@@ -116,14 +117,15 @@ img[alt="globe-pattern"]
 [class="hero-container-right"]
 {
     position: absolute;
-    top: 15vmax;
-    left: 38vw;
-    padding: 2vmax;
+    top: 20vmax;
+    left: 40vmax;
+    /* padding: 2vmax; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
-    height: auto;
+    /* height: 100%; */
+
     
     
 }
@@ -134,8 +136,8 @@ img[alt="globe-pattern"]
 }
 [class="hero-description"]
 {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
     font-family: poppins;
     color: grey;
@@ -144,7 +146,7 @@ img[alt="globe-pattern"]
 {
     font-family: Orbitron;
     border-radius: .5rem;
-    padding: .5rem;
+    padding: .15rem;
     font-size: large;
     font-weight: 500;
 }
@@ -157,12 +159,12 @@ img[alt="globe-pattern"]
 /* social icons */
 [class="contact-section"]
 {
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: poppins;
+    font-family: poppins; 
     gap: .5rem;
-    padding: 1rem;
+    /* padding: .15rem; */
 }
 [class="contact-heading"]
 {
